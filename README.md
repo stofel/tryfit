@@ -25,9 +25,9 @@ cd client; make; cd -
 ./server
 
 из директории client запустить
-./client -srt=abcd
+./client -str=abcd
 или
-./client -srt=error
+./client -str=error
 
 
 
