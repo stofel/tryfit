@@ -1,4 +1,4 @@
-Описание
+= Описание =
 
 Для решения задачи взяты 3 приложения:
 1. client - для удобства посылки POST строки
@@ -6,15 +6,20 @@
 3. reserser - переврачивает строку
 
 
-Компиляция
+= Компиляция =
 
-git clone 
+git clone https://github.com/stofel/tryfit.git
+
+cd tryfit
+
 cd server; make; cd -
+
 cd reverser; make; cd -
-cd client; make;
+
+cd client; make; cd -
 
 
-Запуск
+= Запуск =
 
 из дирeктории server запустить 
 ./server
